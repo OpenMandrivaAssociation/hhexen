@@ -14,7 +14,7 @@ BuildRoot:		%{_tmppath}/%{name}-%{version}-build
 BuildRequires:	GL-devel
 BuildRequires:	SDL-devel >= 1.2.4
 BuildRequires:	SDL_mixer-devel >= 1.2.4
-Requires:	TiMidity
+Requires:	TiMidity++
 
 %description
 Hacked Hexen is a Linux port of Raven Game's old shooter, Hexen.
