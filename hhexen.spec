@@ -4,16 +4,15 @@ Name:			hhexen
 Summary:		Hacked Hexen is a Linux port of Raven Games old shooter, Hexen
 License:		GPL
 Group:			Games/Arcade
-Version:		1.6.2
-Release:		0.4
+Version:		1.6.3
+Release:		1
 URL:			http://hhexen.sourceforge.net/
 Source:			http://downloads.sourceforge.net/hhexen/%{name}-%{version}-src.tgz
 Source1:		%{name}.png
-Source90:		%{name}-rpmlintrc
-BuildRoot:		%{_tmppath}/%{name}-%{version}-build
-BuildRequires:	GL-devel
-BuildRequires:	SDL-devel >= 1.2.4
-BuildRequires:	SDL_mixer-devel >= 1.2.4
+Source90:		%{name}.rpmlintrc
+BuildRequires:	pkgconfig(gl)
+BuildRequires:	pkgconfig(sdl)
+BuildRequires:	pkgconfig(SDL_mixer)
 Requires:	TiMidity++
 
 %description
