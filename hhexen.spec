@@ -11,6 +11,7 @@ Source:			http://downloads.sourceforge.net/hhexen/%{name}-%{version}-src.tgz
 Source1:		%{name}.png
 Source90:		%{name}.rpmlintrc
 BuildRequires:	pkgconfig(gl)
+BuildRequires:	pkgconfig(glu)
 BuildRequires:	pkgconfig(sdl)
 BuildRequires:	pkgconfig(SDL_mixer)
 Requires:	TiMidity++
