@@ -6,7 +6,7 @@ License:		GPL/GPLv2
 Group:			Games/Arcade
 Version:		1.6.3
 Release:		2
-URL:			http://hhexen.sourceforge.net/
+URL:			https://hhexen.sourceforge.net/
 Source:			http://downloads.sourceforge.net/hhexen/%{name}-%{version}-src.tgz
 Source1:		%{name}.png
 Source90:		%{name}.rpmlintrc
