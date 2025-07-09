@@ -123,7 +123,7 @@ EOF
 
 %files
 %defattr(-,root,root)
-%doc AUTHORS ChangeLog LICENSE README-* RELEASE TODO WADFILES
+%doc AUTHORS ChangeLog LICENSE RELEASE TODO WADFILES
 %{_bindir}/%{name}-gl.sh
 %{_prefix}/games/%{name}-gl
 %{_datadir}/pixmaps/%{name}-gl.png
