@@ -10,6 +10,11 @@ URL:			https://hhexen.sourceforge.net/
 Source:			https://downloads.sourceforge.net/hhexen/%{name}-%{version}.tar.gz
 Source1:		%{name}.png
 Source90:		%{name}.rpmlintrc
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(glu)
 BuildRequires:	pkgconfig(sdl)
